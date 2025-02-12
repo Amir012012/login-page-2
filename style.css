@@ -306,68 +306,8 @@ input {
       box-shadow: none;
   }
 
-/* Paste Montserrat Google Fonts Link here*/
 
-/* ... سایر استایل‌ها بدون تغییر باقی موندند ... */
 
-@media screen and (max-width: 768px) {
-    .container {
-        width: 90%; /* عرض کانتینر رو به 90% تغییر دادم */
-        height: auto; /* ارتفاع کانتینر به صورت خودکار تنظیم میشه */
-    }
-
-    .overlay-container {
-        width: 100%; /* عرض overlay برای موبایل 100% میشه */
-        height: 100%;
-        left: 0; /* موقعیت overlay برای موبایل تغییر می‌کنه */
-    }
-
-    .form-container {
-        width: 100%; /* عرض فرم‌ها رو به 100% تغییر دادم */
-        padding: 0 20px; /* پدینگ فرم‌ها رو کمتر کردم */
-    }
-
-    .sign-in-container,
-    .sign-up-container {
-        width: 100%; /* عرض فرم‌های Sign In و Sign Up به 100% تغییر کرد */
-        opacity: 1; /* شفافیت این دو بخش روی موبایل 1 میشه */
-        z-index: 1; /* ترتیب لایه‌ها تغییر کرد */
-        transform: translateX(0); /* این دو بخش به حالت عادی خودشون برمی‌گردن */
-    }
-
-    .overlay {
-        width: 200%; /* عرض overlay روی موبایل به 200% تغییر کرد تا درست نمایش داده بشه */
-        left: -50%; /* موقعیت overlay تنظیم شد */
-        transform: translateX(0); /* به حالت اولیه برگشت */
-    }
-
-    .overlay-panel {
-        width: 100%; /* عرض پنل‌ها رو 100% کردم */
-        transform: translateX(0); /* تغییرات موقعیت‌ها برای ریسپانسیو شدن */
-    }
-
-    .social-container {
-        margin: 15px 0; /* فاصله بین آیکون‌ها برای موبایل کمتر شد */
-    }
-
-    .social-container a {
-        padding: 10px 12px; /* سایز آیکون‌ها رو کمی کوچکتر کردم */
-        font-size: 14px; /* اندازه فونت آیکون‌ها کمی کوچکتر شد */
-    }
-
-    /* هدر برای موبایل کوچکتر میشه */
-    .header {
-        font-size: 28px; /* اندازه فونت هدر رو برای موبایل کاهش دادم */
-    }
-
-    input {
-        padding: 10px; /* پدینگ فیلدهای ورودی رو کم کردم */
-    }
-
-    button {
-        padding: 10px 25px; /* پدینگ دکمه‌ها برای موبایل تغییر کرد */
-        font-size: 14px; /* اندازه فونت دکمه‌ها رو کمی افزایش دادم */
-    }
 
     /* ریسپانسیو شدن برای دکمه‌ها */
     button.ghost {
